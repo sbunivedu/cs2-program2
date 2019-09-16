@@ -4,7 +4,7 @@ public interface QueueADT<T>{
   *
   * @param element  the element to be added to the rear of this queue
   */
-  public void enqueue (T element);
+  public void enqueue(T element);
 
   /**
   * Removes and returns the element at the front of this queue.

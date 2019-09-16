@@ -15,7 +15,7 @@ public class LinkedQueue<T> implements QueueADT<T> {
   *
   * @param element  the element to be added to the rear of this queue
   */
-  public void enqueue (T element){
+  public void enqueue(T element){
     LinearNode<T> node = new LinearNode<T>(element);
 
     if (isEmpty()){
